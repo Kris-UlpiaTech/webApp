@@ -46,7 +46,7 @@ namespace DotNetCoreSqlDb
                 //app.UseHsts();
             }
 
-			dataContext.Database.Migrate();
+			//dataContext.Database.Migrate();
             //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
